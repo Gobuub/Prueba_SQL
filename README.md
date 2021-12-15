@@ -4,6 +4,8 @@ Soluciones a prueba real para entrevista técnica de SQL
 Importa el archivo llamado employees.sql, el mismo se encargará de crear las tablas e
 importar los otros archivos que se encuentran dentro del directorio con los datos respectivos.
 
+Se recomienda instalar el entorno vitual para evitar cualquier tipo de error.
+
 ----
 
 # Ejercicios
