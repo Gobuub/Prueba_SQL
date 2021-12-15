@@ -25,3 +25,10 @@ department | employee_max_salary | e_max_salary | employe_min_salary | e_min_sal
 5. Obtén un listado de todos los cargos con la cantidad de empleados y a su vez
 mostrar el empleado más antiguo y el más nuevo.
 titles | employees | former_employee | new_employee
+
+Encontrareis los datos necesarios en la carpeta de data, si no funcionaran el link para 
+descargar los datos está en el archivo Prueba_tecnica.pdf.
+
+En el archivo Solución_en_python encontrareís la solución a los ejercicios desde un jupiter notebook.
+
+Podreís encontrar las queries de la solución en la carpeta de queries.
