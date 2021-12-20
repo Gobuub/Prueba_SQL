@@ -1,9 +1,14 @@
+# if appears group by error close workbench and run this line of command on the
+#mysql terminal >>
+# SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 Select Max_Salaries.Department as Department,
 Employee_max_salary,
 Max_salary,
 Employee_min_salary,
 Min_salary
 from
+#make two sub-queries one for MAX salary employee and other for MIN salary employee
+#and then add it like a column
 (select Department, 
 concat(employees.first_name, ' ', employees.last_name) as Employee_max_salary,
 Max_salary
