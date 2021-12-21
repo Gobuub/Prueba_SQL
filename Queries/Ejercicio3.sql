@@ -1,6 +1,7 @@
 # if appears group by error close workbench and run this line of command on the
 #mysql terminal >>
-# SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+# SET sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+SET sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 Select Department, 
 concat(employees.first_name, ' ', employees.last_name) as Manager,  
 Number_of_Employees

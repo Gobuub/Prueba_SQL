@@ -1,6 +1,7 @@
 # if appears group by error close workbench and run this line of command on the
 #mysql terminal >>
-# SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+# SET sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+SET sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 select older_emp.Title as Title,
 older_emp.Employees as Employees, 
 Former_Employee, New_Employee
